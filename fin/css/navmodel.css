@@ -1,0 +1,235 @@
+/*html*/
+*{
+margin: 0;
+padding: 0;
+}
+html,body{
+height: 100%;
+min-width: 1000px;
+transition: background-color .5s;
+scroll-behavior: smooth;
+-webkit-font-smoothing: antialiased;
+font-smoothing: antialiased;
+}
+#container{
+position:relative;
+width:100%;
+min-height:100%;
+padding-bottom: 100px;
+box-sizing: border-box;
+}
+header{
+width: 100%;
+height: 50px;
+background: wheat;
+font-family: "Microsoft JhengHei";
+}
+footer{
+margin-top: 2%;
+width: 100%;
+height:400px;
+position:relative;
+bottom:0px;
+left:0px;
+background: #820041;
+color: white;
+text-align: center;
+font-family: "Microsoft JhengHei";
+}
+* {box-sizing: border-box;}
+#banner{
+  padding-top: 2%;
+}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+.slideshow-container {
+max-width: 1480px;
+z-index: -1;
+position: relative;
+margin: auto;
+margin-top: 5%;
+}
+.numbertext {
+color: #f2f2f2;
+font-size: 30px;
+padding: 15px 30px;
+position: absolute;
+top: 0;
+}
+.dot {
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+visibility: hidden;
+}
+.active {
+background-color: #717171;
+}
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 3.5s;
+animation-name: fade;
+animation-duration: 3.5s;
+}
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+.text {font-size: 11px}
+}
+/*header*/
+.header-navigation {
+position: fixed;
+top: 0;
+width: 100%;
+height: 70px;
+line-height: 60px;
+background-color:#820041;
+text-align: center;
+z-index: 9999;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.slideUp {
+-webkit-transform: translateY(-100px);
+transform: translateY(-100px);
+transition: transform .5s ease-out;
+}
+.slideDown {
+-webkit-transform: translateY(0);
+transform: translateY(0);
+transition: transform .5s ease-out;
+}
+#nav{
+text-align: center;
+font-size: 20px;
+margin-right: auto;
+margin-left: auto;
+}
+ul li{
+display: inline;
+}
+  .dropdown {
+  color: rosybrown;
+  position: relative;
+  display: inline-block;
+  }
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background: wheat;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+  .dropdown-content a {
+  color: rosybrown;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+  .dropdown-content a:hover {background: wheat;color:sienna;text-decoration: none;}
+  .dropdown:hover .dropdown-content {display: block; color:sienna;text-decoration: none;}
+  .dropdown:hover {background: wheat;color:sienna;text-decoration: none;}
+  .home{
+  color:    #FAF4FF;
+  font-family: "Microsoft JhengHei";
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  }
+  .home:hover{
+  color:pink;
+  text-decoration: none;
+  }
+  a.col-1.home, input.button, button.button {
+    cursor: pointer;
+  }
+  .login{
+  color: rosybrown;
+  font-family: "Microsoft JhengHei";
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  }
+  .login:hover{
+  color:sienna;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  }
+  .best_content{
+  padding-top: 10%;
+  font-size: 20px;
+  font-family: "Microsoft JhengHei";
+  z-index: -1;
+  }
+  /*menu*/
+  .menu_content{
+  padding-top: 10%;
+  font-size: 20px;
+  font-family: "Microsoft JhengHei";
+  z-index: -1;
+  }
+  /*footer*/
+  .footer{
+  padding-top: 3%;
+  color: white;
+  }
+  .mail{
+  color: white;
+  }
+  .mail:hover{
+  color: pink;
+  }
+  .btn-sub{
+  background-color:   #00DDDD;
+  }
+  .leaf{
+  font-size: 25px;
+  color: #FFFFFF;
+  }
+  .leaf:hover{
+  font-size: 25px;
+  color: pink;
+  }
+  ul li{
+  display: inline;
+  text-align: center;}
+  .foot-lnk {
+    font-size: 18px;
+  }
+  i#eye1, i#eye2 {
+    font-size: 20px;
+  }
+  button.btn.btn-outline-secondary {
+    color:  #FAF4FF;
+    border-color: rosybrown;
+  }
+  button.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: pink;
+    border-color: pink;
+  }
+  button.btn-outline-secondary:not(:disabled):not(.disabled):active {
+    color: #fff;
+    background-color: pink;
+    border-color: pink;
+  }
+  button.btn-outline-secondary.focus, .btn-outline-secondary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(188,143,143,.5);
+  }
+  button.btn-outline-secondary:focus, .btn-outline-secondary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(188,143,143,.5);
+  }
+  #info {
+    -webkit-transform: none;
+    transform: none;
+  }

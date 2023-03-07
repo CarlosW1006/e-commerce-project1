@@ -1,0 +1,40 @@
+.main{
+	width: 700px;
+	height: 480px;
+	padding: 30px 0;
+	margin: 0 auto;
+	position: relative;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	overflow-y: scroll;
+}
+.choice{
+font-family: "YouYuan";
+width: 100%;
+height: 80px;
+padding-top:10px;
+padding-left:25%;
+}
+.choice select{
+float: left;
+font-size: 30px;
+padding: 10px;
+border-radius: 20px;
+outline:none;
+margin:0px 10px 0px 0px;
+}
+
+.choice input{
+font-size: 25px;
+padding: 10px;
+border-radius: 30px;
+outline:none;
+border: 2px solid gray;
+}
+.choice button{
+font-size: 30px;
+padding: 10px;
+border-radius: 20px;
+outline:none;
+}
